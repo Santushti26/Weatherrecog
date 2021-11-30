@@ -1,6 +1,6 @@
 const key = 'd3caaacdb0e6b05d82e28aaa9f2b22eb'
 const requestByCity = async (city) => {
-    const baseURLDaily = 'http://api.openweathermap.org/data/2.5/weather'
+    const baseURLDaily = 'https://api.openweathermap.org/data/2.5/weather'
     const queryDaily = `?q=${city}&appid=${key}`;
 
     const baseURLHourly = 'https://api.openweathermap.org/data/2.5/forecast'
